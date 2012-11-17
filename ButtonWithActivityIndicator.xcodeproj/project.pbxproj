@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC028B2B164DAE6A00F67600 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC028B2A164DAE6A00F67600 /* UIKit.framework */; };
+		DC028B2D164DAE6A00F67600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC028B2C164DAE6A00F67600 /* Foundation.framework */; };
+		DC028B2F164DAE6A00F67600 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC028B2E164DAE6A00F67600 /* CoreGraphics.framework */; };
+		DC028B35164DAE6A00F67600 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC028B33164DAE6A00F67600 /* InfoPlist.strings */; };
+		DC028B37164DAE6A00F67600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC028B36164DAE6A00F67600 /* main.m */; };
+		DC028B3B164DAE6A00F67600 /* BAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC028B3A164DAE6A00F67600 /* BAAppDelegate.m */; };
+		DC028B3D164DAE6A00F67600 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC028B3C164DAE6A00F67600 /* Default.png */; };
+		DC028B3F164DAE6A00F67600 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC028B3E164DAE6A00F67600 /* Default@2x.png */; };
+		DC028B41164DAE6A00F67600 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC028B40164DAE6A00F67600 /* Default-568h@2x.png */; };
+		DC028B44164DAE6A00F67600 /* BAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC028B43164DAE6A00F67600 /* BAViewController.m */; };
+		DC028B47164DAE6A00F67600 /* BAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC028B45164DAE6A00F67600 /* BAViewController.xib */; };
+		DCD42B591657A61200F28293 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DCD42B581657A61200F28293 /* README.md */; };
+		DCE80B8A16530FF500458206 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B7E16530FF500458206 /* blueButton.png */; };
+		DCE80B8B16530FF500458206 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B7F16530FF500458206 /* blueButton@2x.png */; };
+		DCE80B8C16530FF500458206 /* blueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8016530FF500458206 /* blueButtonHighlight.png */; };
+		DCE80B8D16530FF500458206 /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8116530FF500458206 /* blueButtonHighlight@2x.png */; };
+		DCE80B8E16530FF500458206 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8216530FF500458206 /* greenButton.png */; };
+		DCE80B8F16530FF500458206 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8316530FF500458206 /* greenButton@2x.png */; };
+		DCE80B9016530FF500458206 /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8416530FF500458206 /* greenButtonHighlight.png */; };
+		DCE80B9116530FF500458206 /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8516530FF500458206 /* greenButtonHighlight@2x.png */; };
+		DCE80B9216530FF500458206 /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8616530FF500458206 /* orangeButton.png */; };
+		DCE80B9316530FF500458206 /* orangeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8716530FF500458206 /* orangeButton@2x.png */; };
+		DCE80B9416530FF500458206 /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8816530FF500458206 /* orangeButtonHighlight.png */; };
+		DCE80B9516530FF500458206 /* orangeButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE80B8916530FF500458206 /* orangeButtonHighlight@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC028B26164DAE6A00F67600 /* ButtonWithActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonWithActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC028B2A164DAE6A00F67600 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC028B2C164DAE6A00F67600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC028B2E164DAE6A00F67600 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC028B32164DAE6A00F67600 /* ButtonWithActivityIndicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonWithActivityIndicator-Info.plist"; sourceTree = "<group>"; };
+		DC028B34164DAE6A00F67600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC028B36164DAE6A00F67600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC028B38164DAE6A00F67600 /* ButtonWithActivityIndicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonWithActivityIndicator-Prefix.pch"; sourceTree = "<group>"; };
+		DC028B39164DAE6A00F67600 /* BAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAAppDelegate.h; sourceTree = "<group>"; };
+		DC028B3A164DAE6A00F67600 /* BAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAAppDelegate.m; sourceTree = "<group>"; };
+		DC028B3C164DAE6A00F67600 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC028B3E164DAE6A00F67600 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DC028B40164DAE6A00F67600 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC028B42164DAE6A00F67600 /* BAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAViewController.h; sourceTree = "<group>"; };
+		DC028B43164DAE6A00F67600 /* BAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAViewController.m; sourceTree = "<group>"; };
+		DC028B46164DAE6A00F67600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BAViewController.xib; sourceTree = "<group>"; };
+		DCD42B581657A61200F28293 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DCE80B7E16530FF500458206 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		DCE80B7F16530FF500458206 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		DCE80B8016530FF500458206 /* blueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonHighlight.png; sourceTree = "<group>"; };
+		DCE80B8116530FF500458206 /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DCE80B8216530FF500458206 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		DCE80B8316530FF500458206 /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
+		DCE80B8416530FF500458206 /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonHighlight.png; sourceTree = "<group>"; };
+		DCE80B8516530FF500458206 /* greenButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DCE80B8616530FF500458206 /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		DCE80B8716530FF500458206 /* orangeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButton@2x.png"; sourceTree = "<group>"; };
+		DCE80B8816530FF500458206 /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButtonHighlight.png; sourceTree = "<group>"; };
+		DCE80B8916530FF500458206 /* orangeButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButtonHighlight@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC028B23164DAE6A00F67600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC028B2B164DAE6A00F67600 /* UIKit.framework in Frameworks */,
+				DC028B2D164DAE6A00F67600 /* Foundation.framework in Frameworks */,
+				DC028B2F164DAE6A00F67600 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC028B1B164DAE6A00F67600 = {
+			isa = PBXGroup;
+			children = (
+				DCD42B581657A61200F28293 /* README.md */,
+				DC028B30164DAE6A00F67600 /* ButtonWithActivityIndicator */,
+				DC028B29164DAE6A00F67600 /* Frameworks */,
+				DC028B27164DAE6A00F67600 /* Products */,
+				DCE80B7D16530FF500458206 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		DC028B27164DAE6A00F67600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC028B26164DAE6A00F67600 /* ButtonWithActivityIndicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC028B29164DAE6A00F67600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC028B2A164DAE6A00F67600 /* UIKit.framework */,
+				DC028B2C164DAE6A00F67600 /* Foundation.framework */,
+				DC028B2E164DAE6A00F67600 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC028B30164DAE6A00F67600 /* ButtonWithActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				DC028B39164DAE6A00F67600 /* BAAppDelegate.h */,
+				DC028B3A164DAE6A00F67600 /* BAAppDelegate.m */,
+				DC028B42164DAE6A00F67600 /* BAViewController.h */,
+				DC028B43164DAE6A00F67600 /* BAViewController.m */,
+				DC028B45164DAE6A00F67600 /* BAViewController.xib */,
+				DC028B31164DAE6A00F67600 /* Supporting Files */,
+			);
+			path = ButtonWithActivityIndicator;
+			sourceTree = "<group>";
+		};
+		DC028B31164DAE6A00F67600 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC028B32164DAE6A00F67600 /* ButtonWithActivityIndicator-Info.plist */,
+				DC028B33164DAE6A00F67600 /* InfoPlist.strings */,
+				DC028B36164DAE6A00F67600 /* main.m */,
+				DC028B38164DAE6A00F67600 /* ButtonWithActivityIndicator-Prefix.pch */,
+				DC028B3C164DAE6A00F67600 /* Default.png */,
+				DC028B3E164DAE6A00F67600 /* Default@2x.png */,
+				DC028B40164DAE6A00F67600 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE80B7D16530FF500458206 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCE80B7E16530FF500458206 /* blueButton.png */,
+				DCE80B7F16530FF500458206 /* blueButton@2x.png */,
+				DCE80B8016530FF500458206 /* blueButtonHighlight.png */,
+				DCE80B8116530FF500458206 /* blueButtonHighlight@2x.png */,
+				DCE80B8216530FF500458206 /* greenButton.png */,
+				DCE80B8316530FF500458206 /* greenButton@2x.png */,
+				DCE80B8416530FF500458206 /* greenButtonHighlight.png */,
+				DCE80B8516530FF500458206 /* greenButtonHighlight@2x.png */,
+				DCE80B8616530FF500458206 /* orangeButton.png */,
+				DCE80B8716530FF500458206 /* orangeButton@2x.png */,
+				DCE80B8816530FF500458206 /* orangeButtonHighlight.png */,
+				DCE80B8916530FF500458206 /* orangeButtonHighlight@2x.png */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC028B25164DAE6A00F67600 /* ButtonWithActivityIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC028B4A164DAE6A00F67600 /* Build configuration list for PBXNativeTarget "ButtonWithActivityIndicator" */;
+			buildPhases = (
+				DC028B22164DAE6A00F67600 /* Sources */,
+				DC028B23164DAE6A00F67600 /* Frameworks */,
+				DC028B24164DAE6A00F67600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonWithActivityIndicator;
+			productName = ButtonWithActivityIndicator;
+			productReference = DC028B26164DAE6A00F67600 /* ButtonWithActivityIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC028B1D164DAE6A00F67600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = noname;
+			};
+			buildConfigurationList = DC028B20164DAE6A00F67600 /* Build configuration list for PBXProject "ButtonWithActivityIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC028B1B164DAE6A00F67600;
+			productRefGroup = DC028B27164DAE6A00F67600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC028B25164DAE6A00F67600 /* ButtonWithActivityIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC028B24164DAE6A00F67600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC028B35164DAE6A00F67600 /* InfoPlist.strings in Resources */,
+				DC028B3D164DAE6A00F67600 /* Default.png in Resources */,
+				DC028B3F164DAE6A00F67600 /* Default@2x.png in Resources */,
+				DC028B41164DAE6A00F67600 /* Default-568h@2x.png in Resources */,
+				DC028B47164DAE6A00F67600 /* BAViewController.xib in Resources */,
+				DCE80B8A16530FF500458206 /* blueButton.png in Resources */,
+				DCE80B8B16530FF500458206 /* blueButton@2x.png in Resources */,
+				DCE80B8C16530FF500458206 /* blueButtonHighlight.png in Resources */,
+				DCE80B8D16530FF500458206 /* blueButtonHighlight@2x.png in Resources */,
+				DCE80B8E16530FF500458206 /* greenButton.png in Resources */,
+				DCE80B8F16530FF500458206 /* greenButton@2x.png in Resources */,
+				DCE80B9016530FF500458206 /* greenButtonHighlight.png in Resources */,
+				DCE80B9116530FF500458206 /* greenButtonHighlight@2x.png in Resources */,
+				DCE80B9216530FF500458206 /* orangeButton.png in Resources */,
+				DCE80B9316530FF500458206 /* orangeButton@2x.png in Resources */,
+				DCE80B9416530FF500458206 /* orangeButtonHighlight.png in Resources */,
+				DCE80B9516530FF500458206 /* orangeButtonHighlight@2x.png in Resources */,
+				DCD42B591657A61200F28293 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC028B22164DAE6A00F67600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC028B37164DAE6A00F67600 /* main.m in Sources */,
+				DC028B3B164DAE6A00F67600 /* BAAppDelegate.m in Sources */,
+				DC028B44164DAE6A00F67600 /* BAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC028B33164DAE6A00F67600 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC028B34164DAE6A00F67600 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC028B45164DAE6A00F67600 /* BAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC028B46164DAE6A00F67600 /* en */,
+			);
+			name = BAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC028B48164DAE6A00F67600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC028B49164DAE6A00F67600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC028B4B164DAE6A00F67600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonWithActivityIndicator/ButtonWithActivityIndicator-Prefix.pch";
+				INFOPLIST_FILE = "ButtonWithActivityIndicator/ButtonWithActivityIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC028B4C164DAE6A00F67600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonWithActivityIndicator/ButtonWithActivityIndicator-Prefix.pch";
+				INFOPLIST_FILE = "ButtonWithActivityIndicator/ButtonWithActivityIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC028B20164DAE6A00F67600 /* Build configuration list for PBXProject "ButtonWithActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC028B48164DAE6A00F67600 /* Debug */,
+				DC028B49164DAE6A00F67600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC028B4A164DAE6A00F67600 /* Build configuration list for PBXNativeTarget "ButtonWithActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC028B4B164DAE6A00F67600 /* Debug */,
+				DC028B4C164DAE6A00F67600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC028B1D164DAE6A00F67600 /* Project object */;
+}
